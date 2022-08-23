@@ -34,7 +34,7 @@
         <Transition v-if="!store.visited" name="test">
             <div v-if="load" class="flex flex-col">
                 
-                <div class="flex flex-col items-center my-24 pb-8 bg-bgsecondary w-screen text-textcolor">
+                <div class="flex flex-col items-center my-24 pb-8 bg-bgsecondary w-screen text-textcolor text-center">
                     <h3 class="font-bold text-secondtextcolor text-lg mt-8 mb-2">Services</h3>
                     <h2 class="text-textcolor text-2xl mb-12">The full range of Services is as listed</h2>
                     <div class="grid grid-cols-2 md:grid-cols-3 gap-32">
